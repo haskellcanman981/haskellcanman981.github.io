@@ -1,12 +1,18 @@
 body {
   margin: 0px;
+  
 }
 
 canvas {
   background-color: lightblue;
   margin: 20px;
+  background-image: url(https://media.istockphoto.com/id/1437920923/vector/medieval-castle-corridor.jpg?s=612x612&w=0&k=20&c=upaQeVn3zwwCze3f3WF7Cwx8Ir33-ddCUPhIY5Sw14w=);
+  background-repeat:initial;
+  background-position: right top;
+  background-attachment: fixed;
 }
 
 img {
   display: none;
 }
+

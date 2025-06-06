@@ -98,4 +98,5 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  ring: { image: "images/collectables/vintagesonic1-sonic-ring-gif-11562880671bobd49rxah.png"}
 };
