@@ -33,7 +33,7 @@ var init = function (window) {
     }
 
     // TODO 7 : Use a loop to create multiple circles
-    for (var i = 0; i < 5; i++) {
+    for (var i = 0; i < 100; i++) {
       drawCircle();
     }
 
@@ -62,6 +62,8 @@ var init = function (window) {
       game.checkCirclePosition(circles[4]);
 
       // TODO 8 / TODO 9 : Iterate over the array
+    } for (var i = 0; i < circles.length; i++) {
+      
     }
 
     /* 
@@ -76,12 +78,12 @@ var init = function (window) {
       }
 
       // TODO 6 : YOUR CODE STARTS HERE //////////////////////
-      if (circle.x > canvas.width) {
-        circle.x =
-      } else if (circle.y > canvas.height) {
-        circle.y = 0;
-      } else if (circle.y > canvas.height) {
-        circle.y =
+      if (circle.x < 0) {
+      circle.x = canvas.width
+      } if (circle.y > canvas.height) {
+      circle.y = 0
+      } if (circle.y < 0) {
+      circle.y = canvas.height
       }
 
       // YOUR TODO 6 CODE ENDS HERE //////////////////////////
