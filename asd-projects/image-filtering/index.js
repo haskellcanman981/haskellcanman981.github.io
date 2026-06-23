@@ -23,7 +23,7 @@ function applyAndRender() {
 applyFilter(decreaseBlue)
 applyFilter(IncreaseGreenByBlue)
 applyFilterNoBackground(reddify)
-applyFilterNoBackground(gray)
+applyFilterNoBackground(white)
   // do not change the below line of code
   render($("#display"), image);
 }
@@ -82,9 +82,9 @@ pixelArray[BLUE] -= 50
 function IncreaseGreenByBlue(pixelArray){
 pixelArray[GREEN] += pixelArray[BLUE]
 }
-function gray(pixelArray){
-pixelArray[GREEN] -= 70
-pixelArray[BLUE] -= 70
-pixelArray[RED] -= 70
+function white(pixelArray){
+pixelArray[GREEN] += 70
+pixelArray[BLUE] += 70
+pixelArray[RED] += 70
 }
 // CHALLENGE code goes below here
